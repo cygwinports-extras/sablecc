@@ -1,0 +1,12 @@
+category: Java
+requires: classpath jamvm
+sdesc: "SableCC compiler generator"
+ldesc: "SableCC is an object-oriented framework that generates compilers 
+(and interpreters) in the Java programming language. This framework is 
+based on two fundamental design decisions. Firstly, the framework uses 
+object-oriented techniques to automatically build a strictly-typed 
+abstract syntax tree. Secondly, the framework generates tree-walker 
+classes using an extended version of the visitor design pattern which 
+enables the implementation of actions on the nodes of the abstract 
+syntax tree using inheritance. These two design decisions lead to a tool 
+that supports a shorter development cycle for constructing compilers."

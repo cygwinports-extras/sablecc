@@ -1,0 +1,68 @@
+sablecc
+------------------------------------------
+SableCC is an object-oriented framework that generates compilers (and 
+interpreters) in the Java programming language. This framework is based 
+on two fundamental design decisions. Firstly, the framework uses 
+object-oriented techniques to automatically build a strictly-typed 
+abstract syntax tree. Secondly, the framework generates tree-walker 
+classes using an extended version of the visitor design pattern which 
+enables the implementation of actions on the nodes of the abstract 
+syntax tree using inheritance. These two design decisions lead to a tool 
+that supports a shorter development cycle for constructing compilers.
+
+Runtime requirements:
+  classpath-0.93-1
+  jamvm-1.4.5-1
+
+Build requirements:
+  cygwin-1.5.24-2
+  cygport-0.3.1-1
+  classpath-0.93-1
+  fastjar-0.94-1
+  jamvm-1.4.5-1
+  jikes-1.22-4
+
+Canonical website:
+  http://www.sablecc.org/
+
+Canonical download:
+  http://downloads.sourceforge.net/sablecc/
+
+-------------------------------------------
+
+Build instructions:
+  unpack sablecc-3.2-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./sablecc-3.2-X.cygport all
+
+This will create:
+  /usr/src/sablecc-3.2-X-src.tar.bz2
+  /usr/src/sablecc-3.2-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/sablecc
+  /usr/share/doc/Cygwin/sablecc-3.2.README
+  /usr/share/doc/sablecc-3.2/AUTHORS
+  /usr/share/doc/sablecc-3.2/ChangeLog
+  /usr/share/doc/sablecc-3.2/LICENSE
+  /usr/share/doc/sablecc-3.2/README.html
+  /usr/share/doc/sablecc-3.2/THANKS
+  /usr/share/doc/sablecc-3.2/description.html
+  /usr/share/doc/sablecc-3.2/test.sablecc3
+  /usr/share/java/sablecc.jar
+
+------------------
+
+Port Notes:
+
+----- version 3.2-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
