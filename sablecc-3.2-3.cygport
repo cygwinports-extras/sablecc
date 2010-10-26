@@ -9,14 +9,10 @@ ANT_BUILD_TARGETS="jar"
 src_test() {
 	cd ${B}
 	cygjava -jar lib/${PN}.jar ${B}/doc/test.sablecc3
-	cygjavac -source 5.0 expression/
+	cygjavac $(find doc/expression -name '*.java')
 }
 
 ANT_INSTALL_JARS="lib/sablecc.jar"
+ANT_INSTALL_WRAPPERS="sablecc,sablecc.jar"
 
-src_install() {
-	cd ${B}
-	dojar lib/${PN}.jar
-	java_wrapper ${PN} ${JAVA_DIR}/${PN}.jar
-}
 DOCS="README.html doc/description.html doc/test.sablecc3"

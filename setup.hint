@@ -1,5 +1,5 @@
 category: Java
-requires: classpath jamvm
+requires: jamvm
 sdesc: "SableCC compiler generator"
 ldesc: "SableCC is an object-oriented framework that generates compilers 
 (and interpreters) in the Java programming language. This framework is 

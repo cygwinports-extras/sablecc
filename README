@@ -11,16 +11,11 @@ syntax tree using inheritance. These two design decisions lead to a tool
 that supports a shorter development cycle for constructing compilers.
 
 Runtime requirements:
-  classpath-0.93-1
-  jamvm-1.4.5-1
+  jamvm-1.5.3-3
 
 Build requirements:
-  cygwin-1.5.24-2
-  cygport-0.3.1-1
-  classpath-0.93-1
-  fastjar-0.94-1
-  jamvm-1.4.5-1
-  jikes-1.22-4
+  cygport-0.10.2-1
+  jamvm-1.5.3-3
 
 Canonical website:
   http://www.sablecc.org/
@@ -43,25 +38,10 @@ This will create:
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/bin/sablecc
-  /usr/share/doc/Cygwin/sablecc-3.2.README
-  /usr/share/doc/sablecc-3.2/AUTHORS
-  /usr/share/doc/sablecc-3.2/ChangeLog
-  /usr/share/doc/sablecc-3.2/LICENSE
-  /usr/share/doc/sablecc-3.2/README.html
-  /usr/share/doc/sablecc-3.2/THANKS
-  /usr/share/doc/sablecc-3.2/description.html
-  /usr/share/doc/sablecc-3.2/test.sablecc3
-  /usr/share/java/sablecc.jar
-
-------------------
-
 Port Notes:
 
------ version 3.2-1 -----
-Initial release for Cygwin.
+----- version 3.2-3 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
